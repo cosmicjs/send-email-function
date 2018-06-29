@@ -1,0 +1,11 @@
+{
+  "title": "SendGrid Email",
+  "description": "Send emails via SendGrid. Just add your API keys.  POST to the endpoint with valid <code>to</code>,<code>from</code>,<code>subject</code>,<code>text_body</code>, and <code>html_body</code>.  Add <code>SENDGRID_API_KEY</code> environment variable below.",
+  "image_url": "https://cosmic-s3.imgix.net/ed58d700-7b2c-11e8-9d6b-252d8b978aea-SendGrid-Logo.png",
+  "env_vars": [
+    {
+      "key": "SENDGRID_API_KEY",
+      "value": ""
+    }
+  ]
+}
