@@ -35,7 +35,7 @@ module.exports.sendEmail = (event, context, callback) => {
       headers: {
         'Access-Control-Allow-Origin': '*', // Required for CORS support to work
       },
-      body: JSON.stringify(error),
+      body: JSON.stringify(error)
     };
     callback(null, response);
   });
