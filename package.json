@@ -2,7 +2,7 @@
   "name": "send-email-function",
   "version": "1.0.0",
   "description": "",
-  "main": "handler.js",
+  "main": "index.js",
   "dependencies": {
     "@sendgrid/mail": "^6.3.1"
   },
