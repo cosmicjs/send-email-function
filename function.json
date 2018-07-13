@@ -7,5 +7,6 @@
       "key": "SENDGRID_API_KEY",
       "value": ""
     }
-  ]
+  ],
+  "method": "post"
 }
