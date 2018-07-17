@@ -7,7 +7,7 @@ const event = {
     "html_body": "<h1>YO</h1>"\
   }'
 }
-const handler = require('./handler.js')
-handler.sendEmail(event, '', function(err, res) {
+const index = require('./index.js')
+index.handler(event, '', function(err, res) {
   console.log(err, res)
 })

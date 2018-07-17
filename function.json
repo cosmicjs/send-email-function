@@ -8,5 +8,16 @@
       "value": ""
     }
   ],
-  "method": "post"
+  "routes": [
+    {
+      "path": "send-email",
+      "method": "post",
+      "cors": true
+    },
+    {
+      "path": "send-email",
+      "method": "get",
+      "cors": true
+    }
+  ]
 }
