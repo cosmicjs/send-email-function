@@ -10,7 +10,8 @@ Cosmic Function that enables you to send emails using [SendGrid](https://sendgri
 4. Deploy the function and get your endpoints
 
 ### Testing the Endpoint
-You can use Postman to send the following POST variables:
+You can use Postman to test the endpoint with the following POST variables:
+
 `to`,`from`,`subject`,`text_body`, and `html_body`.
 
 
