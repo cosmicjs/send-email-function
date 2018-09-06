@@ -7,7 +7,7 @@ Cosmic Function that enables you to send emails using [SendGrid](https://sendgri
 1. [Login to Cosmic JS](https://cosmicjs.com) and go to Your Bucket > Settings > Functions > Example Functions
 2. Install the SendGrid Email Function
 3. Add your SENDGRID_API_KEY environment variable.
-4. Deploy the function and get your endpoints
+4. Deploy the function and get your endpoint
 
 ### Testing the Endpoint
 You can use Postman to test the endpoint with the following POST variables:
