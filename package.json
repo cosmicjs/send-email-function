@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@sendgrid/mail": "^6.3.1"
+    "@sendgrid/mail": "^6.3.1",
+    "express": "^4.16.4"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "node index.dev.js"
   },
   "author": "",
   "license": "ISC"

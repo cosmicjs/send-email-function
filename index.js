@@ -35,7 +35,7 @@ module.exports.handler = (event, context, callback) => {
       headers: {
         'Access-Control-Allow-Origin': '*', // Required for CORS support to work
       },
-      body: JSON.stringify(error)
+      body: error.toString()
     };
     callback(null, response);
   });
